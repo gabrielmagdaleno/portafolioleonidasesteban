@@ -257,7 +257,6 @@ figure {
 }
 
 .container{
-    border: 1px solid tomato;
     width: 1000px;
     margin: 0 auto;
     display: inherit;

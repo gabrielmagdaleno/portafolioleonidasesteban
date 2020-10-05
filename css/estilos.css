@@ -1,13 +1,18 @@
-body{
+body {
     font-family: "Source Sans Pro", sans-serif;
     margin: 0;
 }
 
-h1, h2, h3, h4, h5, h6{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: "Fjalla One", sans-serif;
 }
 
-h1{
+h1 {
     font-size: 40px;
     font-weight: normal;
     line-height: 1.5;
@@ -16,20 +21,20 @@ h1{
     margin: 0;
 }
 
-h1 strong{
+h1 strong {
     color: #026fff;
 }
 
-h2{
+h2 {
     color: #026fff;
     text-transform: uppercase;
     font-weight: bold;
-    font-family:  "Source Sans Pro", sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
     font-size: 24px;
     margin-bottom: 40px;
 }
 
-.header{
+.header {
     background-color: #1b2127;
     color: white;
     display: flex;
@@ -38,7 +43,7 @@ h2{
     justify-content: space-between;
 }
 
-.header a{
+.header a {
     color: white;
     text-decoration: none;
     display: flex;
@@ -47,31 +52,31 @@ h2{
     padding: 0px 10px;
 }
 
-.menu{
+.menu {
     height: inherit;
 }
 
-.header ul{
+.header ul {
     display: flex;
     height: inherit;
 }
 
-.header ul li{
+.header ul li {
     height: inherit;
 }
 
-ul{
+ul {
     margin: 0;
     padding: 0;
     list-style: none;
     display: flex;
 }
 
-figure{
+figure {
     margin: 0;
 }
 
-.hero{
+.hero {
     height: 300px;
     background-image: url("../images/hero.jpg");
     background-size: 500px 300px;
@@ -82,12 +87,12 @@ figure{
     align-items: center;
 }
 
-.portfolio{
+.portfolio {
     background: #fafafa;
     padding: 20px;
 }
 
-.project{
+.project {
     border: 1px solid grey;
     border-radius: 10px;
     margin: 0px;
@@ -99,42 +104,150 @@ figure{
     justify-content: space-between;
 }
 
-.project-course, .project-date, .project-url{
+.project-course,
+.project-date,
+.project-url {
     margin: 10px 0;
 }
 
-.project-description{
+.project-description {
     font-size: 20px;
 }
 
-.project strong{
+.project strong {
     font-family: "Fjalla One", sans-serif;
 }
 
-.project-title{
+.project-title {
     font-size: 30px;
     margin-top: 0px;
     margin-bottom: 10px;
 }
 
-.project-details{
-    width: 500px;
-}
-.project-imageContainer{
+.project-details {
     width: 500px;
 }
 
-.footer{
+.project-imageContainer {
+    width: 500px;
+}
+
+.event-list {
+    display: flex;
+}
+
+.event-list-title {
+    margin-left: 20px;
+}
+
+.event {
+    margin: 10px;
+    width: 480px;
+    border-radius: 10px;
+    overflow: hidden;
+    flex-shrink: 0;
+    background: #f4fbff;
+}
+
+.event img {
+    width: 480px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.event-detail {
+    margin: 20px 40px;
+    margin-top: -40px;
+    background-color: white;
+    position: relative;
+    padding: 20px;
+    text-align: center;
+}
+
+.event-description {
+    text-align: left;
+}
+
+.event-url {
+    text-decoration: none;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 5px 20px;
+    color: #056fff;
+}
+
+.contact {
+    background-color: #056fff;
+    color: white;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form-email input {
+    border-color: gray;
+    padding: 5px 20px 5px 25px;
+    border-radius: 5px;
+    border-style: solid;
+    background-image: url(../images/envelope.svg);
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 5px;
+}
+
+.form-email button {
+    display: block;
+    margin-top: 10px;
+    background: transparent;
+    border-radius: 5px;
+    color: white;
+    width: 100px;
+    padding: 10px 0;
+}
+
+.form-email h3 {
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+.social {}
+
+.social-link {
+    display: inline-block;
+    margin: 0 10px;
+    width: 50px;
+    height: 50px;
+    background-size: 50px 50px;
+}
+
+.social-link.twitter {
+    background-image: url(../images/twitter.svg);
+}
+
+.social-link.facebook {
+    background-image: url(../images/facebook.svg);
+}
+
+.social-link.github {
+    background-image: url(../images/github.svg);
+}
+
+.social-link.instagram {
+    background-image: url(../images/instagram.svg);
+}
+
+.footer {
     background: #1b2127;
     color: white;
     display: flex;
     justify-content: space-between;
 }
 
-.footer img{
+.footer img {
     vertical-align: middle;
 }
 
-.footer a{
+.footer a {
     color: white;
 }

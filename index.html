@@ -105,9 +105,9 @@
             <article class="event">
                 <figure class="event-imageContainer">
                     <div class="flexible-video">
-                        <iframe class="youtube-video" width="560" height="315"
-                            src="https://www.youtube.com/watch?v=BIS7cWGgJg0&t=2s" target="_blank"
-                            frameborder="0"></iframe>
+
+                        <iframe class="youtube-video" width="560" height="315" src="https://www.youtube.com/embed/BIS7cWGgJg0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        
                     </div>
                 </figure>
 
@@ -192,7 +192,9 @@
                 burgerButton.removeEventListener("click", hideShow);
             }
         }
-        
+
+        validation(ipad);
+
         function hideShow() {
             if (menu.classList.contains("is-active")) {
                 menu.classList.remove("is-active");
